@@ -12,6 +12,28 @@ body {
     
     
   }
+  .strona
+  {
+      text-align: center;
+  }
+  
+  .strona img
+  {
+      width: 100%;
+      height: auto;
+  }
+  
+  .strona p
+  {
+      margin-bottom: 30px;
+  }
+  
+  .strona figcaption
+  {
+      margin-top: 8px;
+  }
+  
+  
 nav{
     background-color: #292929;
     text-align: center;
@@ -117,7 +139,7 @@ nav{
   p{  font-size: 17px;
     letter-spacing: 1px;
      margin-top: 5px;
-     width:600px;
+     width:100%;
      margin-left: auto;
      margin-right: auto;
      text-align: center;
@@ -210,14 +232,14 @@ padding:0;
 
 .socialdivs
 {
-	width: 1000px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .fb
 {
-	width: 250px;
+	width: 25%;
 	height: 90px;
 	float:left;
 }
@@ -229,7 +251,7 @@ padding:0;
 
 .yt
 {
-	width: 250px;
+	width: 25%;
 	height: 90px;
 	float:left;
 }
@@ -241,7 +263,7 @@ padding:0;
 
 .tw
 {
-	width: 250px;
+	width: 25%;
 	height: 90px;
 	float:left;
 }
@@ -253,7 +275,7 @@ padding:0;
 
 .instagram
 {
-	width: 250px;
+	width: 25%;
 	height: 90px;
 	float:left;
 }
