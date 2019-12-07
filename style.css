@@ -95,11 +95,15 @@ nav{
 #logo{
    
     color: #fff;
-    width: 100%;
+    margin: 0 auto;
     font-size: 500px;
     letter-spacing: 6px;
     margin-top: 20px;
-    
+
+}
+
+#logo h1{
+    animation: slide 2s linear forwards;
 
 }
 #logo2{
@@ -290,4 +294,14 @@ padding:0;
     margin-right: auto;
     text-align: center;
     padding: 20px;
+}
+
+
+@keyframes slide {
+    from{
+        margin-left: -200%;
+    }
+    to {
+        margin-left: 0;
+    }
 }
